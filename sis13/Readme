@@ -1,0 +1,1 @@
+To add the working directory to PATH. Please first use command "pwd" and copy the corresponding working directory. Then please append the working directory to the end of the following command "export PATH=$PATH:". For example, suppose the working directory is "/home/hongsx/Downloads/sis13", then the final command should be "export PATH=$PATH:/home/hongsx/Downloads/sis13".
