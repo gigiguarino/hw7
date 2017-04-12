@@ -1,7 +1,12 @@
+.model state1.kiss
+.inputs
+.outputs
+.start_kiss
 .i 3
 .o 1
-.kiss
-.s 4
+.p 24
+.s 3
+.r S0
 000 S0 S0 0
 001 S0 S0 1
 010 S0 S0 1
@@ -26,12 +31,6 @@
 101 S2 S2 0
 110 S2 S2 0
 111 S2 S2 1
-000 S3 S1 1
-001 S3 S2 0
-010 S3 S2 0
-011 S3 S2 1
-100 S3 S2 0
-101 S3 S2 1
-110 S3 S2 1
-111 S3 S3 0
-.e
+.end_kiss
+.latch_order
+.end
